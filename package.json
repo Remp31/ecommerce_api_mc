@@ -4,8 +4,11 @@
   "description": "Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Remp31/Ecommerce-backendAvanzado.git"

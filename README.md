@@ -12,8 +12,8 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Administrador
   - Cliente
   - Vendedor
+
 - Los clientes se registran llenando el formulario com los siguientes datos:
-​
   - Nombre
   - Apellido
   - Dirección 1 de entrega
@@ -47,6 +47,7 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Teléfono
   - Correo
   - Contraseña (mismos criterios)
+  
 - Los productos solo pueden ser registrados por los Vendedores y para registrar un nuevo producto se requieren los siguientes campos
   - Nombre del producto
   - Descripción

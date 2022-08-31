@@ -37,7 +37,6 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Correo
   - Contraseña (con los mimso criterios que el cliente)
 ​
-//TODO
 - Los nuevos administradores pueden ser registrados por un admin ya creado con anterioridad
 - Los campos para registrar un admin son
   - Nombre
@@ -46,6 +45,7 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Correo
   - Contraseña (mismos criterios)
 
+//TODO
 - Los productos solo pueden ser registrados por los Vendedores y para registrar un nuevo producto se requieren los siguientes campos
   - Nombre del producto
   - Descripción
@@ -54,6 +54,7 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Precio unitario
   - Cantidad en almacén
   - Fotos del producto
+
 - Los clientes pueden comprar varios productos a la vez, esto gracias a un carrito de compras
 ​
 - Los clientes pueden crear un carrito de compras y solo podrán tener un carrito activo simultaneo

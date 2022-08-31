@@ -9,10 +9,14 @@ const productSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    specs: {
-        type: String,
-        required: true,
-    },
+    specs: [{
+        specsTitle: {
+            type: String,
+        },
+        specsDescription: {
+            type: String,
+        }
+    }],
     idCategory: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Category',

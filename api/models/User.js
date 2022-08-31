@@ -70,6 +70,10 @@ const userSchema = new mongoose.Schema({
             },
         }
     },
+    role: {
+        type: mongoose.Schema.Types.ObjectId,
+        default: '630ebd29c08324fb70ac9e26',
+    }
 })
 
 export default mongoose.model('User', userSchema)

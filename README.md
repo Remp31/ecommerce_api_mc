@@ -2,12 +2,10 @@
 Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
 
 # Descripción
-​
     Desarrollar una API RESTFULL con nodejs y express, usando una base de mongodb
     de un e-commerce.
 ​
 # Pseudo requerimientos
-​
 - El sistema cuenta con 3 roles
   - Administrador
   - Cliente
@@ -32,14 +30,14 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Contactos personales (este puede estar vacío)
     NOTA: Todos los campos son obligatorios
 ​
-- Para registrar a un vendedor se requieren los siguientes datos:
-​
+- Para registrar a un vendedor se requieren los siguientes datos:​
   - Nombre
   - Apellidos
   - Teléfono
   - Correo
   - Contraseña (con los mimso criterios que el cliente)
 ​
+//TODO
 - Los nuevos administradores pueden ser registrados por un admin ya creado con anterioridad
 - Los campos para registrar un admin son
   - Nombre
@@ -47,7 +45,7 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Teléfono
   - Correo
   - Contraseña (mismos criterios)
-  
+
 - Los productos solo pueden ser registrados por los Vendedores y para registrar un nuevo producto se requieren los siguientes campos
   - Nombre del producto
   - Descripción

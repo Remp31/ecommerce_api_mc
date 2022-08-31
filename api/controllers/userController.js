@@ -15,4 +15,21 @@ const createUser = async (req, res) => {
     }
 };
 
-export { createUser };
+const getAllUsers = async (req, res) => {
+    try {
+        const users = await User.find();
+        return res.json({
+            msg: 'Usuarios encontrados',
+            data: {
+                user: users
+            }
+        })
+    } catch (error) {
+        return res.json({
+            msg: 'Error al buscar usuarios',
+            error,
+        });
+    }
+};
+
+export { createUser, getAllUsers };

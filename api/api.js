@@ -1,4 +1,5 @@
 import express from 'express';
+import userRoutes from './routes/userRoutes.js'
 
 const api = express();
 
@@ -9,5 +10,7 @@ api.get('/status', (req, res) => {
         msg: 'API activa',
     })
 })
+
+api.use(userRoutes)
 
 export default api;

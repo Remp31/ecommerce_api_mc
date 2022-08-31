@@ -68,8 +68,7 @@ const userSchema = new mongoose.Schema({
             phoneContact: {
                 type: Number,
             },
-        },
-        required: true,
+        }
     },
 })
 

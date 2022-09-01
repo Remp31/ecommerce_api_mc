@@ -4,6 +4,7 @@ import roleRoutes from './routes/roleRoutes.js';
 import salesManRoutes from './routes/salesManRoutes.js';
 import administratorRoutes from './routes/administratorRoutes.js';
 import productRoutes from './routes/productRoutes.js'
+import categoryRoutes from './routes/categoryRoutes.js'
 
 const api = express();
 
@@ -20,5 +21,6 @@ api.use(roleRoutes);
 api.use(salesManRoutes);
 api.use(administratorRoutes);
 api.use(productRoutes);
+api.use(categoryRoutes);
 
 export default api;

@@ -1,7 +1,6 @@
 import Product from "../models/Product.js";
 
 //TODO: Validar que el que crea un nuevo producto debe ser un un usuario vendedor
-//TODO: Crear categorías para validar la creación. 
 const createProduct = async (req, res) => {
     try{
         const newProduct = await Product.create(req.body);

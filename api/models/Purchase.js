@@ -33,6 +33,10 @@ const purchaseSchema = new mongoose.Schema({
         }
     }
     ],
+    idDiscountCoupon: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'DiscountCoupon'
+    }
 });
 
 export default mongoose.model('Purchase', purchaseSchema)

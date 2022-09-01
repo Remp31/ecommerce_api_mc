@@ -1,5 +1,5 @@
 # Ecommerce-backendAvanzado
-Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
+    Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
 
 # Descripción
     Desarrollar una API RESTFULL con nodejs y express, usando una base de mongodb
@@ -45,7 +45,7 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Correo
   - Contraseña (mismos criterios)
 
-//TODO
+
 - Los productos solo pueden ser registrados por los Vendedores y para registrar un nuevo producto se requieren los siguientes campos
   - Nombre del producto
   - Descripción
@@ -56,10 +56,6 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
   - Fotos del producto
 
 - Los clientes pueden comprar varios productos a la vez, esto gracias a un carrito de compras
-​
-- Los clientes pueden crear un carrito de compras y solo podrán tener un carrito activo simultaneo
-- Crear un endpoint para realizar un pago el cual pida el id del carrito
-- Solo puedo realizar el pago de mis propios carritos de compra
 - Se pueden editar los artículos agregados al carrito de compra
 - Los datos del carrito son:
   - Total (default 0)
@@ -68,6 +64,11 @@ Proyecto desarrollado en el módulo de backend avanzado. Master en coding DEV.F
     artículo,
     cantidad
     }]
+
+# Pendiente
+- Los clientes pueden crear un carrito de compras y solo podrán tener un carrito activo simultaneo
+- Crear un endpoint para realizar un pago el cual pida el id del carrito
+- Solo puedo realizar el pago de mis propios carritos de compra
 - Cada vez que edita (crear editar o eliminar) un artículo del carrito, se debe calcular de nuevo el total del mismo
 - Los clientes no pueden encontrar productos que no tengan stock en inventario
 - El cliente puede ver su historial de compras

@@ -8,7 +8,6 @@ const shoppingCartSchema = new mongoose.Schema({
     },
     payDate: {
         type: Date, 
-        required: true,
         default: null,
     },
     products: [{
@@ -23,6 +22,12 @@ const shoppingCartSchema = new mongoose.Schema({
         }
     }
     ],
+    idUser: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+        required: true,
+        unique: true,
+    }
 });
 
 export default mongoose.model('ShoppingCart', shoppingCartSchema)
